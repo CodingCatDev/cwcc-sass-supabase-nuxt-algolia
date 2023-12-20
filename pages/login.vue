@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const supabase = useSupabaseClient();
+const user = useSupabaseUser();
 
 const state = reactive({
   email: "",
@@ -25,7 +26,6 @@ async function onSubmit() {
   }
 }
 
-const user = useSupabaseUser();
 watch(
   user,
   () => {
