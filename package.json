@@ -16,6 +16,7 @@
     "nuxt": "^3.7.4"
   },
   "dependencies": {
+    "@nuxt/ui-pro": "^0.6.1",
     "@nuxtjs/algolia": "^1.10.1"
   }
 }

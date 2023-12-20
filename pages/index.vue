@@ -1,3 +1,6 @@
+<script lang="ts" setup>
+  const cats = await useCats();
+</script>
 <template>
   <UContainer>
     <UCard class="mt-10">
@@ -11,12 +14,7 @@
           /></ColorScheme>
         </div>
       </template>
-      <UButton
-        icon="i-heroicons-book-open"
-        to="https://ui.nuxt.com"
-        target="_blank"
-        >Open Nuxt UI Documentation</UButton
-      >
+      <pre>{{cats}}</pre>
     </UCard>
   </UContainer>
 </template>

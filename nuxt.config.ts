@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  extends: ["@nuxt/ui-pro"],
   modules: ["@nuxt/ui", '@nuxtjs/supabase', '@nuxtjs/algolia'],
 
   supabase: {
@@ -12,7 +13,7 @@ export default defineNuxtConfig({
 
   algolia: {
     instantSearch: {
-      theme: 'reset'
+      theme: 'algolia'
     }
   },
 })
