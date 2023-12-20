@@ -1,4 +1,11 @@
-# Nuxt UI Minimal Starter
+## Code with CodingCat.dev
+
+How to use Supabase, Algolia, and Nuxt to create a SaaS application.
+
+YouTube Walkthrough: https://www.youtube.com/live/G1JabZnaoNA?si=7-E1_mwO0FxrZo5t
+
+
+## Nuxt UI Minimal Starter
 
 Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more.
 
